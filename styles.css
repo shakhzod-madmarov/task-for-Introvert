@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+    display: grid;
+    place-items: center;
+}
+
+.task {
+  text-align: center;
+  padding: 20px;
+  text-align: center;
+  width: 100dvw;
+  height: 100dvh;
+}
+
+.btnCreate {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
